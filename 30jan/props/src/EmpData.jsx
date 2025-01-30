@@ -1,0 +1,40 @@
+const EmpData = [
+    {
+        "rollno":1,
+        "name":"Sudhansh",
+        "designation":"Officer",
+        "salary":45666
+    },
+    {
+        "rollno":2,
+        "name":"Anshul",
+        "designation":"Clerk",
+        "salary":35000
+    },
+    {
+        "rollno":3,
+        "name":"Vikas",
+        "designation":"Peon",
+        "salary":40000
+    },
+    {
+        "rollno":4,
+        "name":"Harsh",
+        "designation":"Devopler",
+        "salary":56000
+    },
+    {
+        "rollno":5,
+        "name":"Dhruv",
+        "designation":"Officer",
+        "salary":25000
+    },
+    {
+        "rollno":6,
+        "name":"Himanshu",
+        "designation":"Designer",
+        "salary":60000
+    }
+]
+
+export default EmpData
