@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+}
+
+.apphead
+{
+    color:darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Cyhead
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.head2
+{
+    color: firebrick;
+    font-family: cursive;
+}
+
+
+.cars{
+    display: flex;
+    justify-content: space-around;
+}
