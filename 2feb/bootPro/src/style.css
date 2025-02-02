@@ -1,0 +1,118 @@
+
+.head1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+.head1 a{
+    color: black;
+  
+    
+  
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .social-links, .footer-links {
+    margin-top: 10px;
+  }
+  
+  .social-link, .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  .social-link:hover, .footer-link:hover {
+    text-decoration: underline;
+  }
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    background-color: #fff;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form > br {
+    display: none;
+  }
+  
+  form > div {
+    margin-bottom: 20px;
+  }
+  
