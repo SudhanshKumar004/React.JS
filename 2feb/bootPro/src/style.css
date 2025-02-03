@@ -108,11 +108,16 @@
     background-color: #45a049;
   }
   
-  form > br {
-    display: none;
+  form{
+    width: 100vh;
+    color:whitesmoke;
+
   }
-  
-  form > div {
-    margin-bottom: 20px;
+  form input{
+    height: 10px;
+    color: #ccc;
   }
-  
+
+  form label{
+    color: whitesmoke;
+  }
