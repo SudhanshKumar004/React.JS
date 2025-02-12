@@ -22,7 +22,7 @@ const App = () => {
      {/* <Students nm={name} rno={rno} fs={fs} sub={sub } /> */}
      {/* <Map /> */}
 
-     {/* <h1>Employee Data</h1>
+     <h1>Employee Data</h1>
      <table border={2}>
       <tr>
         <th>Emp No.</th>
@@ -31,9 +31,9 @@ const App = () => {
         <th>Salary</th>
       </tr>
       {ans}
-     </table> */}
+     </table>
 
-       <ForCSS />
+       {/* <ForCSS /> */}
     </>
   )
 }
