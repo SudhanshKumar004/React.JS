@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Complete , Delete , CompShow } from './ToDoSlice'
 import { MdDelete } from "react-icons/md";
+import { MdEdit } from "react-icons/md";
 
 
 const ToDo = () => {
@@ -20,6 +21,7 @@ const ToDo = () => {
                 <td>{key.data}</td>
                 <td><button onClick={()=>{dis(CompShow({id:key.id}))}}>Complete</button></td>
                 <td><MdDelete onClick={()=>{dis(Delete({id:key.id}))}} /></td>
+                <td><MdEdit /></td>
             </tr>
             </>
         )

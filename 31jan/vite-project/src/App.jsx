@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <>
-    {/* <h1 classNameName='apphead'>welcome to app page</h1> */}
+    {/* <h1 className='apphead'>welcome to app page</h1> */}
     {/* <Cybrom />
     <img src={myimg}                   height="200px" width="300px" />
     <img src="public/image/roma.jpeg"  height="200px" width="300px" /> */}
